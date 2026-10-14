@@ -2,7 +2,7 @@
 body {
     font-family: Arial;
     text-align: center;
-    background-color: lightblue;
+    background-color:rgb(204, 181, 184);
     padding: 30px;
 }
 
@@ -10,11 +10,16 @@ input {
     padding: 10px;
 }
 
+input:hover{background-color:rgb(180, 196, 201)}
+
 button {
     padding: 10px;
     margin: 5px;
     cursor: pointer;
 }
+
+button:hover{background-color: rgb(196, 196, 214);
+            font-size:15px;}
 
 li {
     margin: 15px;
